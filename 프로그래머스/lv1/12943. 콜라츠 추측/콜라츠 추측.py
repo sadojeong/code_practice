@@ -11,7 +11,7 @@ def solution(num):
         else:
             num = num * 3 + 1
         if num == 1:
-            break
+            return count
             
     if count < 500:
         return count
